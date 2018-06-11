@@ -1,7 +1,7 @@
 execution:
 - concurrency: 100
   ramp-up: 1m
-  hold-for: 6m
+  hold-for: 5m
   scenario: quick-test
   locations:
     us-west-1: 1
@@ -23,3 +23,10 @@ modules:
     project: Taurus CLI  # project name or id
     test: Quick Test Cloud
     token: '706de116d31c2592bccb6df9:a34a228edede7958205f5c334898c068feaa82272e517969e410f5c2c23915f1b3c12590'
+
+  notify:
+    slack:
+      default:
+        url:  https://hooks.slack.com/services/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
+        threshold: 0.3%
+
