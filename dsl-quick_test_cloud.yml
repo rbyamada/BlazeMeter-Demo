@@ -15,13 +15,6 @@ scenarios:
   quick-test:
     requests:
     - http://blazedemo.com
-    
-Coverage:
-  notify:
-    slack:
-      default:
-        url: https://hooks.slack.com/services/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
-        threshold: 0.3%
 
 modules:
   cloud:
