@@ -1,6 +1,6 @@
 execution:
 - concurrency: 100
-  ramp-up: 1m
+  ramp-up: 5m
   hold-for: 10m
   scenario: quick-test
   locations:
